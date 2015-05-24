@@ -1,0 +1,8 @@
+#パスワード認証
+#AddHandler cgi-script htpasswd
+AuthUserFile /home/hikaru/hikaru.webcrow.jp/public_html/.htpasswd
+#AuthGroupFile /dev/null
+AuthName "Please enter username and password"
+AuthType Basic
+
+require user guest
